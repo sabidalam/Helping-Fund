@@ -1,0 +1,159 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+/**header-section start**/
+.header {
+    text-align: center;
+    padding: 10%;
+    color: black;
+}
+
+.header h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px white;
+
+}
+
+.header p {
+    text-shadow: 1px 1px 2px pink;
+    margin-bottom: 40px;
+}
+
+.header-section {
+    background: linear-gradient(rgba(255, 255, 255, 0.603), rgba(255, 255, 255, 0.589)), url(images/donation.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.Donate-button {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+
+}
+
+/**header-section end**/
+
+/**donate-section start**/
+
+.donate-header {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 10%;
+
+}
+
+.donate-header h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-header p {
+    color: #707070;
+}
+
+.donation {
+    display: flex;
+    margin-left: 20%
+}
+
+.amount {
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    background: #f0ecec;
+    text-align: center;
+    box-sizing: content-box;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+
+#amount2 {
+    width: 100px;
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+    box-sizing: content-box;
+    margin-right: 20px;
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+
+}
+
+.others {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.others p {
+    color: #B3B3B3;
+    margin-bottom: 40px;
+}
+
+.others p::after {
+    content: "";
+    display: block;
+    width: 765px;
+    border: 1px solid #DADADA;
+    background: lightgray;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+/**donate-section end**/
+
+/**plan-section start**/
+.plan-header {
+    text-align: center;
+    margin-top: 10%;
+
+}
+
+.plan-header p {
+    color: #707070;
+    margin-bottom: 60px;
+}
+
+.plan-sector {
+    display: flex;
+    margin-left: 5%;
+
+}
+
+#food {
+    width: 360px;
+    height: 352px;
+    box-sizing: content-box;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+
+#shelter {
+    width: 360px;
+    height: 352px;
+    box-sizing: content-box;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#education {
+    width: 360px;
+    height: 352px;
+    box-sizing: content-box;
+    background: rgba(235, 211, 133, 0.539);
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
