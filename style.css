@@ -118,6 +118,11 @@ body {
 
 }
 
+.plan-header h1 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
 .plan-header p {
     color: #707070;
     margin-bottom: 60px;
@@ -125,35 +130,83 @@ body {
 
 .plan-sector {
     display: flex;
-    margin-left: 5%;
+    margin-left: 6%;
+
 
 }
 
 #food {
-    width: 360px;
-    height: 352px;
+    width: 330px;
+    height: 300px;
     box-sizing: content-box;
     background: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
     margin-right: 20px;
+    padding: 60px 10px 0 20px;
 
 }
 
 #shelter {
-    width: 360px;
-    height: 352px;
+    width: 330px;
+    height: 300px;
     box-sizing: content-box;
     background: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
     margin-right: 20px;
+    padding: 60px 10px 0 20px;
 }
 
 #education {
-    width: 360px;
-    height: 352px;
+    width: 330px;
+    height: 300px;
     box-sizing: content-box;
     background: rgba(235, 211, 133, 0.539);
     border-radius: 5px;
     margin-right: 20px;
+    padding: 60px 10px 0 20px;
 
+}
+
+/**plan-section end**/
+
+/**projects-section start**/
+.project-section h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.our-projects {
+    display: flex;
+    margin-left: 6%;
+}
+
+.action {
+    width: 360px;
+    height: 480px;
+    box-sizing: content-box;
+    background: #f0ecec;
+    border-radius: 5px;
+    margin-right: 20px;
+
+}
+
+.action h2 {
+    text-align: center;
+}
+
+.action p {
+    text-align: center;
+    padding: 10px;
+    color: #707070;
+}
+
+.action a {
+    margin-left: 27%;
+}
+
+#span {
+    color: #FF5959;
 }
