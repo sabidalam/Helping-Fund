@@ -167,6 +167,10 @@ body {
 
 }
 
+.plan-sector p {
+    color: #707070;
+}
+
 /**plan-section end**/
 
 /**projects-section start**/
@@ -185,7 +189,7 @@ body {
 
 .action {
     width: 360px;
-    height: 480px;
+    height: 500px;
     box-sizing: content-box;
     background: #f0ecec;
     border-radius: 5px;
@@ -209,4 +213,78 @@ body {
 
 #span {
     color: #FF5959;
+}
+
+/**projects-section end**/
+
+/**my-update-section start**/
+.my-update h1 {
+    text-align: center;
+    margin-top: 8%;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.my-update p {
+    text-align: center;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.update {
+    display: flex;
+    margin-left: 26%;
+    margin-top: 40px;
+}
+
+form input {
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: #c2bdbd;
+    margin-left: 100px;
+    margin-top: 50px;
+    border-radius: 5px 0 0 5px;
+}
+
+.submitbtn {
+    text-decoration: none;
+    color: white;
+    background-color: tomato;
+    width: 80%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    margin-left: 70px;
+    margin-top: 50px;
+    border-radius: 0 5px 5px 0;
+}
+
+.box {
+    width: 600px;
+    height: 150px;
+    box-sizing: content-box;
+    background: #FFF4D6;
+    margin-bottom: 8%;
+}
+
+/**my-update-section end**/
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 2%;
+}
+
+footer h1 {
+    font-style: oblique;
+    color: tomato;
+}
+
+footer p {
+    color: #707070;
 }
